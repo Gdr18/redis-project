@@ -1,0 +1,41 @@
+.input-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    input {
+        width: 600px;
+        height: 30px;
+        margin-top: 20px;
+        border: 0;
+        border-bottom: 1px solid black;
+        transition: 0.5s ease-in-out;
+        &:focus {
+            outline: none;
+            border-bottom: 1px solid rgb(83, 143, 83);
+        }
+    }
+
+    button {
+        width: 150px;
+        height: 30px;
+        margin-top: 20px;
+        background-color: orange;
+        border: 0.5px solid transparent;
+        border-radius: 2px;
+        color: aliceblue;
+        transition: 0.5s ease-in-out;
+        &:hover {
+            background-color: rgb(185, 122, 5);
+            border: 0.5px solid rgb(136, 93, 14);
+        }
+    }
+
+    a {
+        margin-top: 20px;
+        color: rgb(64, 59, 129);
+        transition: 0.5s ease-in-out;
+        &:hover {
+            color: black;
+        }
+    }
+}

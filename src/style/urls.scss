@@ -1,0 +1,15 @@
+.urls-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    a {
+        margin-bottom: 20px;
+        color: rgb(64, 59, 129);
+        transition: 0.5s ease-in-out;
+        &:hover {
+            color: black;
+        }
+    }
+}      
